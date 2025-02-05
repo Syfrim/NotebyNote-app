@@ -1,10 +1,14 @@
-function App() 
-{
-  
+import Nav from "./sections/Nav";
+import Hero from "./sections/Hero";
 
-  return <h1 className="bg-black text-white">what</h1>;
-    
-  
+function App() {
+  return(
+    <>
+        <Nav />
+        <Hero />
+    </>
+  );
 }
 
-export default App
+  
+export default App;
