@@ -40,7 +40,7 @@ function Nav() {
                 )}
             </DisclosureButton>
           </div>
-          <Disclosure.Panel className="space-y-1 px-4 sm:hidden">
+          <Disclosure.Panel className="space-y-1 px-4 sm:hidden ">
             {navLinks.map((link, index) => (
                             <DisclosureButton className="block" as="a" href="#features" key={index}> 
                                 {link.children}   
