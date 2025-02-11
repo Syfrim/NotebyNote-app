@@ -7,10 +7,9 @@ function Features() {
   return (
     <section id="features" className="flex max-w-7xl flex-col gap-10 px-8 pt-10 lg:px-12 xl:m-auto xl:pt-20">
         <article className="m-auto w-[30ch] text-center text-gray-500 md:m-0 md:w-full">
-            <h2 className="mb-4 text-4xl font-semibold text-gray-800">Make every penny count</h2>
-            <p>Spend smarter, lower your bills, get cashback on everything you buy,
-                <br />
-            and unlock credit to grow your business.
+            <h2 className="mb-4 text-4xl font-semibold text-gray-800">Connecting passionate students with talented musicians</h2>
+            <p>
+                Great teaching with affordable costs
             </p>
         </article>
 

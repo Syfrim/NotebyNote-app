@@ -9,7 +9,7 @@ function Hero() {
             <div className="sm:w-full md:w-3/6">
                 <h1 className="mx-auto mb-8 w-[12ch] text-center text-4xl font-semibold text-gray-800 sm:text-5xl md:mx-0 md:text-left">Where every note finds it's perfect match</h1>
                 <p className="m-auto w-[34ch] text-center text-gray-500 md:m-0 md:text-left">
-                    Finding the right piano teacher shouldn't be a struglle, it should feel like the start of a beautiful melody.
+                    Finding the right piano teacher should feel like the start of a beautiful melody.
                 </p>
 
                 <StoreLinks type={BtnTypes.Standard}/>
