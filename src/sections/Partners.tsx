@@ -16,7 +16,7 @@ function Partners() {
   return(
     <section id="partners" className="mt-20 flex flex-col bg-gray-50 py-20">
         <article className="mb-10 w-full px-8 text-center lg:px-12">
-            <h2 className="mb-4 text-4xl font-semibold text-gray-800">Transact Seamlessly with...</h2>
+            <h2 className="mb-4 text-4xl text-gray-800">Transact Seamlessly with...</h2>
             <p>
                 Connect your other accounts to Kobodrop seamlessly. Kobodrop supports 200+ 
                 <br/>
