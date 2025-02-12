@@ -1,5 +1,5 @@
 import StoreLinks, { BtnTypes } from "../common/StoreLinks";
-import Piano2 from "../assets/file.svg";
+import Phone1 from "../assets/phone1.png";
 import HeroImage from "../assets/hero.png";
 import Piano1 from "../assets/piano1.jpg";
 
@@ -17,7 +17,7 @@ function Hero() {
             </div>
            
             <div className="md:w-3/6 xl:mb-12 xl:overflow-hidden">
-                <img className="right-0 m-auto w-72 xl:absolute xl:left-6 xl:right-0 xl:mt-32 xl:w-80" src={Piano2} alt="Kobodrop app frame" />
+                <img className="right-0 m-auto w-72 xl:absolute xl:left-6 xl:right-0 xl:mt-32 xl:w-80" src={Phone1} alt="Kobodrop app frame" />
                 <img className="hidden rounded-2xl xl:flex " src={Piano1} alt="A woman happily using Kobodrop" />
             </div>
 
