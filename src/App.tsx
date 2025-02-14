@@ -14,7 +14,6 @@ function App() {
         <Features />
         <Reviews />
         <Choice />
-        <Partners/>
         <Footer />
         
     </>

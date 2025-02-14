@@ -25,7 +25,7 @@ function Reviews() {
         }
     ];
   return (
-    <section id="reviews" className="flex max-w-7xl flex-col items-center justify-center px-8 py-20 lg:m-auto lg:flex-row lg:px-12">
+    <section id="reviews" className="flex max-w-8xl flex-col items-center justify-center lg:m-auto lg:flex-row px-12 pb-10 ">
         
         <Carousel slides={slides}/>
     </section>

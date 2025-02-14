@@ -37,8 +37,8 @@ function StoreLinks({type}) {
         <div className="hidden justify-center sm:flex ">
 
 
-            <StoreLink href="https://www.whatsapp.com" upperText="Hello" logo={WhatsappLogo} target="_blank" className='items-center justify-center flex bg-zinc-900 w-1/2 h-screen  text-white hover:bg-zinc-950 active:bg-zinc-800' />
-            <StoreLink href="https://www.whatsapp.com" upperText="Hello" logo={WhatsappLogo} target="_blank" className='items-center justify-center flex bg-zinc-900 w-1/2 h-screen  text-white hover:bg-zinc-950 active:bg-zinc-800' />
+            <StoreLink href="https://www.whatsapp.com" upperText="Hello" logo={""} target="_blank" className='items-center justify-center flex bg-zinc-900 w-1/2 h-screen  text-white hover:bg-zinc-950 active:bg-zinc-800' />
+            <StoreLink href="https://www.whatsapp.com" upperText="Hello" logo={""} target="_blank" className='items-center justify-center flex bg-zinc-900 w-1/2 h-screen  text-white hover:bg-zinc-950 active:bg-zinc-800' />
 
         </div>
   ); }

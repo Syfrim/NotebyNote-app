@@ -33,10 +33,10 @@ function Carousel({slides}: CarouselProps) {
     }
 
   return (
-    <div className="relative h-[600px] max-w-[1800px] overflow-hidden rounded-2xl">
+    <div className="relative xl:h-[600px] sm:h-[400px] max-w-[1800px] overflow-hidden rounded-2xl">
         <div className="flex transition duration-300 ease-out" style={{transform: `translateX(-${current * 100}%)`}}>
             {slides.map((slide, index) => (<div key={index} className='relative h-full min-h-fit w-full flex-shrink-0'><img className='min-h-[400px] object-cover' src={slide.src} alt={`Slideshow image ${index}`} />
-            <div className='absolute left-0 bottom-0 flex h-96 w-full flex-col gap-2 bg-gray-800/[0.6] p-4 text-white lg:gap-4'>
+            <div className='absolute inset-x-0 bottom-0 flex flex-col gap-2 bg-gray-800/[0.6] p-4 text-white min-h-[400px] lg:min-h-[400px]'>
                 <p>{slide.text}</p>
                 <div className='flex justify-between'>
                     <h1 className='text-3xl'>{slide.name}</h1>
@@ -52,6 +52,7 @@ function Carousel({slides}: CarouselProps) {
             </div>
             </div>
             ))}
+
         </div>
         <img onClick={previousSlide} className='absolute bottom-5 right-16 h-7 w-7 rounded-full border p-1 hover:cursor-pointer' src={ArrowBack} alt="Previous slide button" />
         <img onClick={nextSlide} className='absolute bottom-5 right-5 h-7 w-7 rounded-full border p-1 hover:cursor-pointer' src={ArrowForward} alt="Next slide button" />

@@ -1,3 +1,4 @@
+/*
 import Klarna from "../assets/logo-wall/klarna.png"
 import Stripe from "../assets/logo-wall/stripe.png"
 import PayPal from "../assets/logo-wall/paypal.png"
@@ -39,3 +40,4 @@ function Partners() {
 }
 
 export default Partners;
+*/
