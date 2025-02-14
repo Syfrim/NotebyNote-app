@@ -18,8 +18,8 @@ function Nav() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="flex h-[15vh] max-w-7xl items-center justify-between px-8 xlm:-auto lg:px-12">   
-            <div className="flex">
+          <div className="flex h-[15vh] max-w-7xl items-center justify-between xlm:-auto lg:px-3">   
+            <div className="flex pl-4">
              
                 <ButtonLink href="#" children={<img src={NotebyNoteLogo} alt="NotebyNote logo"/>}/>                
                 <div className='sm:flex hidden items-center space-x-4 ml-4 lg:ml-8 lg:space-x-8'>
@@ -31,7 +31,7 @@ function Nav() {
 
                 </div>
             </div>
-            <ButtonLink href="https://whatsapp.com" target="_blank" children={"Contact Us"} className='active: bg hidden bg-gray-800 text-white rounded-xl px-5 py-3 hover:bg-gray-900 active:bg-gray-600 sm:flex'></ButtonLink>
+            <ButtonLink href="https://whatsapp.com" target="_blank" children={"Contact Us"} className='active: bg hidden bg-gray-800 text-white rounded-xl px-5 py-3 hover:bg-gray-900 active:bg-gray-600 sm:flex '></ButtonLink>
             
             <DisclosureButton className="sm:hidden rounded-md p-2 text-gray-500 hover:bg-gray-700 hover:text-white">
                 {open ? (
