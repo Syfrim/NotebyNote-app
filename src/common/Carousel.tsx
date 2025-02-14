@@ -33,13 +33,13 @@ function Carousel({slides}: CarouselProps) {
     }
 
   return (
-    <div className="relative h-[400px] max-w-[400px] overflow-hidden rounded-2xl">
+    <div className="relative h-[600px] max-w-[1800px] overflow-hidden rounded-2xl">
         <div className="flex transition duration-300 ease-out" style={{transform: `translateX(-${current * 100}%)`}}>
             {slides.map((slide, index) => (<div key={index} className='relative h-full min-h-fit w-full flex-shrink-0'><img className='min-h-[400px] object-cover' src={slide.src} alt={`Slideshow image ${index}`} />
-            <div className='absolute left-0 top-44 flex h-96 w-full flex-col gap-2 bg-gray-800/[0.6] p-4 text-white lg:gap-4'>
+            <div className='absolute left-0 bottom-0 flex h-96 w-full flex-col gap-2 bg-gray-800/[0.6] p-4 text-white lg:gap-4'>
                 <p>{slide.text}</p>
                 <div className='flex justify-between'>
-                    <h1 className='text-xl font-semibold'>{slide.name}</h1>
+                    <h1 className='text-3xl'>{slide.name}</h1>
                     <div className='hidden lg:flex'>
                         <img src={Star} className='h-5 w-5' alt="" />
                         <img src={Star} className='h-5 w-5' alt="" />

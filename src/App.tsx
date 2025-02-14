@@ -4,6 +4,7 @@ import Features from "./sections/Features";
 import Partners from "./sections/Partners";
 import Reviews from "./sections/Reviews";
 import Footer from "./sections/Footer";
+import Choice from "./sections/Choice";
 
 function App() {
   return(
@@ -11,9 +12,11 @@ function App() {
         <Nav />
         <Hero />
         <Features />
-        <Partners />
         <Reviews />
+        <Choice />
+        <Partners/>
         <Footer />
+        
     </>
   );
 }
