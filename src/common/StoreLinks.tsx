@@ -17,8 +17,8 @@ function StoreLinks({type}) {
         <div className="mt-10 hidden justify-center space-x-2 sm:flex md:justify-normal">
 
 
-            <StoreLink href="https://www.whatsapp.com" lowerText="Whatsapp" logo={WhatsappLogo} target="_blank" className='items-center flex gap-3 rounded-lg bg-zinc-900 px-4 py-3 text-white hover:bg-zinc-950 active:bg-zinc-800'/>
-            <StoreLink href="https://www.instagram.com" lowerText="Instagram" logo={InstagramLogo} target="_blank" className='items-center flex gap-3 rounded-lg bg-zinc-900 px-4 py-3 text-white hover:bg-zinc-950 active:bg-zinc-800'/>
+            <StoreLink href="https://wa.me/6596527576?text=Hello%2C%20I%E2%80%99m%20looking%20for%20a%20piano%20teacher%20for%20my%20child.%20Could%20you%20help%20me%20find%20the%20right%20match%3F" lowerText="Whatsapp" logo={WhatsappLogo} target="_blank" className='items-center flex gap-3 rounded-lg bg-zinc-900 px-4 py-3 text-white hover:bg-zinc-950 active:bg-zinc-800'/>
+            <StoreLink href="https://www.instagram.com/notebynote.co/" lowerText="Instagram" logo={InstagramLogo} target="_blank" className='items-center flex gap-3 rounded-lg bg-zinc-900 px-4 py-3 text-white hover:bg-zinc-950 active:bg-zinc-800'/>
 
         </div>
   ); }
@@ -27,8 +27,8 @@ function StoreLinks({type}) {
         <div className="mt-10 hidden justify-center space-x-2 sm:flex md:justify-normal">
 
 
-            <StoreLink href="https://www.whatsapp.com" upperText="Contact us on" lowerText="Whatsapp" logo={WhatsappLogo} target="_blank" className='flex gap-3 rounded-lg bg-zinc-900 px-4 py-3 text-white hover:bg-zinc-950 active:bg-zinc-800'/>
-            <StoreLink href="https://www.instagram.com" upperText="Check us out on" lowerText="Instagam" logo={InstagramLogo} target="_blank" className='flex gap-3 rounded-lg bg-zinc-900 px-4 py-3 text-white hover:bg-zinc-950 active:bg-zinc-800'/>
+            <StoreLink href="https://wa.me/6596527576?text=Hello%2C%20I%E2%80%99m%20looking%20for%20a%20piano%20teacher%20for%20my%20child.%20Could%20you%20help%20me%20find%20the%20right%20match%3F" upperText="Contact us on" lowerText="Whatsapp" logo={WhatsappLogo} target="_blank" className='flex gap-3 rounded-lg bg-zinc-900 px-4 py-3 text-white hover:bg-zinc-950 active:bg-zinc-800'/>
+            <StoreLink href="https://www.instagram.com/notebynote.co/" upperText="Check us out on" lowerText="Instagam" logo={InstagramLogo} target="_blank" className='flex gap-3 rounded-lg bg-zinc-900 px-4 py-3 text-white hover:bg-zinc-950 active:bg-zinc-800'/>
 
         </div>
   ); }

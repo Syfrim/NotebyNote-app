@@ -11,7 +11,7 @@ interface Slide {
     src: string;
     text: string;
     name: string;
-    country: string;
+    age: string;
 }
 
 function Carousel({slides}: CarouselProps) {
@@ -48,7 +48,7 @@ function Carousel({slides}: CarouselProps) {
                         <img src={Star} className='h-5 w-5' alt="" />
                     </div>
                 </div>
-                <h2>{slide.country}</h2>
+                <h2>{slide.age}</h2>
             </div>
             </div>
             ))}

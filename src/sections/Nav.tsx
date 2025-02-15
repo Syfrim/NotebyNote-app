@@ -31,7 +31,7 @@ function Nav() {
 
                 </div>
             </div>
-            <ButtonLink href="https://whatsapp.com" target="_blank" children={"Contact Us"} className='active: bg hidden bg-gray-800 text-white rounded-xl px-5 py-3 hover:bg-gray-900 active:bg-gray-600 sm:flex '></ButtonLink>
+            <ButtonLink href="https://wa.me/6596527576?text=Hello%2C%20I%E2%80%99m%20looking%20for%20a%20piano%20teacher%20for%20my%20child.%20Could%20you%20help%20me%20find%20the%20right%20match%3F" target="_blank" children={"Contact Us"} className='active: bg hidden bg-gray-800 text-white rounded-xl px-5 py-3 hover:bg-gray-900 active:bg-gray-600 sm:flex '></ButtonLink>
             
             <DisclosureButton className="sm:hidden rounded-md p-2 text-gray-500 hover:bg-gray-700 hover:text-white">
                 {open ? (
