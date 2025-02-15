@@ -1,7 +1,6 @@
 import WhatsappLogo from "../assets/logos/whatsapp-svgrepo-com (1).svg";
 import  InstagramLogo  from "../assets/logos/instagram-1-svgrepo-com.svg";
 import StoreLink from "../common/StoreLink";
-import GooglePlayBright from "../assets/logos/google_play_bright.svg";
 interface StoreLinksProps {
     type: BtnTypes;
 }
@@ -11,7 +10,7 @@ export enum BtnTypes {
 }
 
 
-function StoreLinks({type}) {
+function StoreLinks({type}: StoreLinksProps) {
     if (type === BtnTypes.Standard) {
     return (
         <div className="mt-10 hidden justify-center space-x-2 sm:flex md:justify-normal">
