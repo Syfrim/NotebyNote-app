@@ -1,8 +1,7 @@
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/16/solid';
 import { Disclosure, DisclosureButton } from '@headlessui/react';
-import  Kobodrop  from "../assets/logos/kobodrop_logo.svg";
 import ButtonLink from '../common/ButtonLink';
-import { Children } from 'react';
+
 import NotebyNoteLogo from "../assets/NotebyNoteLogo_sized.png"
 export { NotebyNoteLogo };
 function Nav() {

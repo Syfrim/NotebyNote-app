@@ -3,9 +3,8 @@ import How from "../assets/notebynote_howitworks.jpg"
 import Convinience from "../assets/notebynote_convinience.jpg"
 import Flexibility from "../assets/notebynote_flexibility.jpg"
 
-import ShieldCheck from "../assets/icons/check.png"
-import Coins from "../assets/icons/coins.png"
-import Payment from "../assets/notebynote_payment.png"
+
+
 
 function Features() {
   return (

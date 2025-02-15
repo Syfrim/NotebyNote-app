@@ -1,4 +1,3 @@
-import StoreLinks, { BtnTypes } from "../common/StoreLinks";
 
 function Choice() {
   return (
