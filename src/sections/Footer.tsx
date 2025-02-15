@@ -1,8 +1,7 @@
-import KobodropLight from "../assets/logos/kobodrop_logo_bright.png";
 import StoreLinks, { BtnTypes } from "../common/StoreLinks";
-import Twitter from"../assets/logos/icons8-twitterx.svg";
+{/*import Twitter from"../assets/logos/icons8-twitterx.svg";
 import Facebook from"../assets/logos/icons8-facebook.svg";
-import Linkedin from"../assets/logos/icons8-linkedin.svg";
+import Linkedin from"../assets/logos/icons8-linkedin.svg";*/}
 import ButtonLink from "../common/ButtonLink";
 import { NotebyNoteLogo } from "./Nav";
 

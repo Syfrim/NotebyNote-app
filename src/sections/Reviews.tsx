@@ -1,5 +1,4 @@
 import Carousel from "../common/Carousel";
-import StoreLinks, { BtnTypes } from "../common/StoreLinks";
 
 function Reviews() {
     const slides = [
