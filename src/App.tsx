@@ -15,7 +15,7 @@ function App() {
         <Reviews />
         <Choice />
         <Footer />
-        <button className="fixed bottom-6 right-8 size-10 z-50" onClick={() => window.open("https://wa.me/6596527576?text=Hello%2C%20I%E2%80%99m%20looking%20for%20a%20piano%20teacher%20for%20my%20child.%20Could%20you%20help%20me%20find%20the%20right%20match%3F", "_blank")} >
+        <button className="fixed bottom-6 right-8 size-14 z-50" onClick={() => window.open("https://wa.me/6596527576?text=Hello%2C%20I%E2%80%99m%20looking%20for%20a%20piano%20teacher%20for%20my%20child.%20Could%20you%20help%20me%20find%20the%20right%20match%3F", "_blank")} >
         <img 
           src={WhatsappIcon}
           alt="WhatsApp" 
