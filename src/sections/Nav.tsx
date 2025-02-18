@@ -20,7 +20,7 @@ function Nav() {
           <div className="flex h-[15vh] max-w-7xl items-center justify-between xlm:-auto lg:px-3">   
             <div className="flex pl-4">
              
-                <ButtonLink href="#" children={<img src={NotebyNoteLogo} alt="NotebyNote logo"/>}/>                
+                <p>NotebyNote</p>                
                 <div className='sm:flex hidden items-center space-x-4 ml-4 lg:ml-8 lg:space-x-8'>
 
                     {navLinks.map((link, index) => (

@@ -10,14 +10,14 @@ function Reviews() {
         }
         ,
         {
-            src: "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            src: "https://cdn.pixabay.com/photo/2019/06/24/00/59/piano-4294992_1280.jpg",
             text: '"I love my piano lessons! My teacher is so patient and makes learning really fun. I was nervous at first, but now I can play songs all by myself. I always look forward to my classes!"',
             name: "Emily Tan",
             age: "9 Years Old, Grade 1"
         }
         ,
         {
-            src: "https://images.unsplash.com/photo-1433622070098-754fdf81c929?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            src: "https://cdn.pixabay.com/photo/2019/03/27/00/21/keyboard-4083960_1280.jpg",
             text: '"The piano tuition has really helped me refine my technique and musical expression. My teacher gives great feedback and always challenges me to grow. Thanks to these lessons, I recently passed my Grade 8 exam with distinction!"',
             name: "Sofia Ng",
             age: "17 Years Old, Grade 8"

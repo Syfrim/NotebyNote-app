@@ -1,6 +1,8 @@
 import WhatsappLogo from "../assets/logos/whatsapp-svgrepo-com (1).svg";
 import  InstagramLogo  from "../assets/logos/instagram-1-svgrepo-com.svg";
 import StoreLink from "../common/StoreLink";
+export {InstagramLogo, WhatsappLogo}; 
+
 interface StoreLinksProps {
     type: BtnTypes;
 }

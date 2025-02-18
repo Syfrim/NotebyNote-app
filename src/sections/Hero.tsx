@@ -6,8 +6,8 @@ function Hero() {
     return( 
         <section className="relative items-center gap-10 px-8 sm:gap-16 md:my-0 md:h-[100vh] mt-4 flex h-fit max-w-7xl flex-col md:flex-row md:gap-0 lg:px-12 xl:m-auto xl:gap-0 xl:overflow-hidden">
             <div className="sm:w-full md:w-3/6">
-                <h1 className="mx-auto mb-8 w-[12ch] text-center text-4xl text-gray-800 sm:text-5xl md:mx-0 md:text-left">Where every note finds it's perfect match</h1>
-                <p className="m-auto w-[34ch] text-center text-gray-500 md:m-0 md:text-left text-base">
+                <h1 className="mx-auto mb-8 w-[12ch] text-center text-4xl text-black sm:text-5xl md:mx-0 md:text-left">Where Every Note Finds It's Perfect Match</h1>
+                <p className="m-auto sm:w-[28ch] xl:w-[32ch] text-center text-black md:m-0 md:text-left text-xl overflow-auto">
                     Finding the right piano teacher should feel like the start of a beautiful melody.
                 </p>
 

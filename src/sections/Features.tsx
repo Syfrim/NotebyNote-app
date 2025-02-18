@@ -9,10 +9,10 @@ import Flexibility from "../assets/notebynote_flexibility.jpg"
 function Features() {
   return (
     <section id="features" className="flex max-w-7xl flex-col gap-10 px-8 pt-10 lg:px-12 xl:m-auto xl:pt-20 pb:10">
-        <article className="m-auto w-[30ch] text-center text-gray-500 md:m-0 md:w-full">
-            <h2 className="mb-4 text-4xl text-gray-800">Connecting passionate students with talented musicians</h2>
-            <p>
-                Great teaching with affordable costs
+        <article className="m-auto w-[30ch] text-center text-black md:m-0 md:w-full">
+            <h2 className="mb-4 text-4xl text-black">Connecting Passionate Students With Talented Musicians</h2>
+            <p className="text-xl font-style: italic">
+                Great Teaching at Affordable Costs
             </p>
         </article>
 
