@@ -63,10 +63,10 @@ function Footer() {
                     */}
                    {
                     <div className="flex gap-6 w-[10ch] xl:hidden">
-                        <a href="https://twitter.com" target="_blank">
+                        <a href="https://www.instagram.com/notebynote.co/" target="_blank">
                         <img src={InstagramLogo} alt="Twitter logo" />
                         </a>
-                        <a href="https://facebook.com" target="_blank">
+                        <a href="https://wa.me/6596527576?text=Hello%2C%20I%E2%80%99m%20looking%20for%20a%20piano%20teacher%20for%20my%20child.%20Could%20you%20help%20me%20find%20the%20right%20match%3F" target="_blank">
                         <img src={WhatsappLogo} alt="Facebook logo" />
                         </a>
                         
