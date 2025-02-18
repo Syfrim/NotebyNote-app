@@ -24,7 +24,7 @@ function Reviews() {
         }
     ];
   return (
-    <section id="reviews" className="flex max-w-8xl flex-col items-center justify-center lg:m-auto lg:flex-row px-12 pb-10 ">
+    <section id="#reviews" className="flex max-w-8xl flex-col items-center justify-center lg:m-auto lg:flex-row px-12 pb-10 ">
         
         <Carousel slides={slides}/>
     </section>
