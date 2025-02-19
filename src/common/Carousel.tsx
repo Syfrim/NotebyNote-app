@@ -37,7 +37,7 @@ function Carousel({slides}: CarouselProps) {
         <div className="flex transition duration-300 ease-out" style={{transform: `translateX(-${current * 100}%)`}}>
             {slides.map((slide, index) => (<div key={index} className='relative h-full min-h-fit w-full flex-shrink-0'><img className='min-h-[400px] object-cover' src={slide.src} alt={`Slideshow image ${index}`} />
             <div className='absolute inset-x-0 bottom-0 flex flex-col gap-2 bg-gray-800/[0.6] p-4 text-white min-h-[400px] lg:min-h-[400px]'>
-                <p>{slide.text}</p>
+                <p className='text-xl'>{slide.text}</p>
                 <div className='flex justify-between'>
                     <h1 className='text-3xl'>{slide.name}</h1>
                     <div className='hidden lg:flex'>
