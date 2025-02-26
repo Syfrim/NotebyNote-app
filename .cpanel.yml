@@ -15,13 +15,13 @@ deployment:
     - /bin/npm run build
 
     # Copy the built files to the deployment path
-    - /bin/cp -R ./dist/* ${DEPLOYPATH}
+    - /bin/cp -R * ${DEPLOYPATH}
 
-    # Copy other necessary files
-    - /bin/cp ./index.html ${DEPLOYPATH}
-    - /bin/cp ./src/assets/logos/kobodrop_favicon.png ${DEPLOYPATH}/src/assets/logos/kobodrop_favicon.png
-    - /bin/cp ./src/main.tsx ${DEPLOYPATH}/src/main.tsx
-    - /bin/cp ./src/index.css ${DEPLOYPATH}/src/index.css
+    # # Copy other necessary files
+    # - /bin/cp ./index.html ${DEPLOYPATH}
+    # - /bin/cp ./src/assets/logos/kobodrop_favicon.png ${DEPLOYPATH}/src/assets/logos/kobodrop_favicon.png
+    # - /bin/cp ./src/main.tsx ${DEPLOYPATH}/src/main.tsx
+    # - /bin/cp ./src/index.css ${DEPLOYPATH}/src/index.css
 
     # Set proper permissions
     - /bin/chmod 755 ${DEPLOYPATH}
