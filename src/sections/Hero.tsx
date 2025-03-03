@@ -8,9 +8,9 @@ function Hero() {
             <div className="sm:w-full md:w-3/6">
                 <h1 className="mx-auto mb-8 w-[12ch] text-center text-4xl text-black sm:text-5xl md:mx-0 md:text-left">Where Every Note Finds It's Perfect Match</h1>
                 <p className="m-auto sm:w-[28ch] xl:w-[32ch] text-center text-black md:m-0 md:text-left text-xl overflow-auto">
-                    Finding the right piano teacher should feel like the start of a beautiful melody.
+                 Find your perfect piano teacher<br /> fast and easy!
                 </p>
-
+                
                 <StoreLinks type={BtnTypes.Standard}/>
 
             </div>
