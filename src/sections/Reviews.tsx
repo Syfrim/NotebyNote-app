@@ -24,8 +24,16 @@ function Reviews() {
         }
     ];
   return (
-    <section id="#reviews" className="flex max-w-8xl flex-col items-center justify-center lg:m-auto lg:flex-row px-12 pb-10 ">
-        
+    <section 
+        id="reviews" 
+        className="flex flex-col items-center justify-center mx-auto px-12 pb-10"
+        style={{
+            width: "100%",
+            maxWidth: "1280px",
+            minHeight: "480px",
+            overflow: "hidden"
+        }}
+    >
         <Carousel slides={slides}/>
     </section>
   );
